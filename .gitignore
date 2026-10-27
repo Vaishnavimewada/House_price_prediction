@@ -1,0 +1,18 @@
+@"
+# Kaggle dataset - do not upload
+data/raw/train.csv
+data/raw/test.csv
+data/raw/*.csv
+
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+"@ | Set-Content .gitignore
